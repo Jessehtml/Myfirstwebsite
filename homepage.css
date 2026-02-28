@@ -1,0 +1,41 @@
+.locationpic {
+    width: 250px;        /* Sets a specific width */
+    height: 250px;        /* Keeps the photo from looking stretched */
+    border-radius: 20px; /* This makes the corners rounded! */
+    border: 5px solid white; /* Optional: adds a nice frame */
+}
+
+.greeting {
+    font-family: 'Arial', sans-serif; /* A clean, modern font */
+    color: #333; /* A dark gray color for the text */
+    text-align: center; /* Centers the text */
+    margin-top: 50px; /* Adds some space above the greeting */
+}
+
+.gretting {
+    font-family: 'Times New Roman', serif; /* A classic, elegant font */
+    color: blueviolet;
+    text-align: center; /* Centers the text */
+    margin-top: 20px; /* Adds some space above the greeting */
+    font-weight: 100;
+}
+
+.sponserbutton {
+    /* This is the button in its normal state */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    transition: 0.2s; /* Makes the shadow fade in smoothly */
+
+
+/* This happens ONLY when you click and hold */
+
+}
+
+button:active {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px); /* Optional: makes the button look like it's being pushed down */
+}
